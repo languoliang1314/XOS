@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#191919</color>
+    <color name="colorPrimaryDark">#191919</color>
+    <color name="colorAccent">#191919</color>
+
+    <color name="transparent">#0000</color>
+    <color name="white">#fff</color>
+
+    <color name="message_content">#fbf8f8</color>
+    <color name="message_time">#dedcdc</color>
+
+    <color name="message_spinner">#070707</color>
+
+    <color name="message_title1">#ff0303</color>
+    <color name="message_title2">#09097b</color>
+    <color name="message_title3">#14ba07</color>
+    <color name="message_title4">#7f8b09</color>
+
+    <color name="btn_color">#E0E0DD</color>
+    <color name="btn_color1">#888888</color>
+    <color name="btn_color2">#04ddfd</color>
+
+    <color name="bc_color">#E61F1E1E</color>
+    <color name="bc_car_color">#afafaf</color>
+    <color name="bc_car_search_color">#067fff</color>
+
+    <color name="bc_color1">#353538</color>
+
+</resources>
