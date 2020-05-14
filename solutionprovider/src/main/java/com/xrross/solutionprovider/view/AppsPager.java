@@ -2,11 +2,9 @@ package com.xrross.solutionprovider.view;
 
 import android.content.Context;
 import android.content.pm.ResolveInfo;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
-
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import com.xrross.common.view.GridSpacingItemDecoration;
 import com.xrross.solutionprovider.R;
 import com.xrross.solutionprovider.adapter.AppListAdapter;

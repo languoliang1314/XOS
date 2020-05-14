@@ -1,23 +1,14 @@
 package com.xrross.xoscn;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.pm.ApplicationInfo;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.WindowManager;
 
-import com.google.gson.Gson;
+import com.xrross.solutionprovider.fragment.FeiShiFragment;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         wmanager.getDefaultDisplay().getMetrics(dm);
         int widthPixels2 = dm.widthPixels;
         int heightPixels2 = dm.heightPixels;
+        getSupportFragmentManager().beginTransaction()
+                .add(R.id.fragment,new FeiShiFragment()).commit();
     }
 
     @Override

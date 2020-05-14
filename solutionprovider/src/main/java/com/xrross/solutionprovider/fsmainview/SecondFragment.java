@@ -1,9 +1,9 @@
 package com.xrross.solutionprovider.fsmainview;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 
-import androidx.annotation.Nullable;
 
 import com.xrross.solutionprovider.R;
 import com.xrross.solutionprovider.view.BasePager;

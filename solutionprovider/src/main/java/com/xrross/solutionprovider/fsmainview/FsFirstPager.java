@@ -5,11 +5,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.IBinder;
+import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
-
-import androidx.annotation.Nullable;
-
 import com.xrross.solutionprovider.R;
 import com.xrross.solutionprovider.ui.AppListActivity;
 import com.xrross.solutionprovider.view.BasePager;

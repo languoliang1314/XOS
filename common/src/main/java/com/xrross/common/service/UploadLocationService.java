@@ -4,8 +4,7 @@ import android.app.Service;
 import android.content.Intent;
 import android.location.Location;
 import android.os.IBinder;
-
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 import com.xrross.common.network.HttpUtils;
 import com.xrross.common.network.callback.ICallBack;

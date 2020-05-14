@@ -2,14 +2,14 @@ package com.xrross.common.base;
 
 import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 
-public abstract class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends FragmentActivity {
     private View contentViewGroup;
 
     @Override

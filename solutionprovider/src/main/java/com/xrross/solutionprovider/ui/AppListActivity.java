@@ -1,10 +1,7 @@
 package com.xrross.solutionprovider.ui;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.viewpager.widget.ViewPager;
-
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.WindowManager;
 
